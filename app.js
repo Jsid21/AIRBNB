@@ -42,8 +42,9 @@ app.use(methodoverride("_method"));
 app.use(express.static(path.join(__dirname, "/public")));
 
 // to store all session details on mongodb
+url = process.env.MONGODB_URI;
 const store = MongoStore.create({
-    mongoUrl: process.env.MONGODB_URI,
+    mongoUrl: url ,
     crypto:{
         secret:process.env.SECRET
     },
