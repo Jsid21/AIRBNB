@@ -134,7 +134,7 @@ main().catch(err => console.log(err));
 
 
 app.get("/", (req, res) => {
-    res.send("hi");
+    res.redirect("/listings");
 });
 
 app.listen(8080, () => {
