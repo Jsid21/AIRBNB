@@ -1,0 +1,100 @@
+/* body{
+    background-color: rgb(232, 232, 156);
+} */
+*{
+    font-family: "Roboto", sans-serif !important;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color:rgb(197, 80, 80);
+    font-size: 2.5rem;
+    margin: 2px;
+}
+#companyname{
+    color:rgb(197, 80, 80);
+    font-weight: 500;
+    /* margin-bottom: 5px; */
+}
+.nav-link{
+    color: rgb(24, 23, 23) !important;
+}
+.navbar-collapse{
+    background-color: white;
+}
+footer{
+    margin-top: 10px;
+}
+.f-info-links{
+    width: 100%;
+}
+.f-info-socials{
+    width: 100%;
+}
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin: 0.2rem;
+    color: #222222;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    background-color: rgb(212, 212, 212);
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center ;
+}
+#listcard{
+    border: none !important;
+    margin: 1.5rem;
+    transition-duration: 200ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+
+}
+#listcard:hover{
+    transform: scale(1.1);
+}
+.card-img-top{
+    border-radius: 1rem;
+    /* width: 100% !important; */
+    object-fit:cover;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text {
+    font-weight: 400;
+}
+.showlink{
+    text-decoration: none;
+}
+#showcard{
+    /* height: 20rem; */
+    border: none;
+    object-fit:fill;
+}
+
+#showImage{
+
+    width: 100%;
+    /* height: 5rem; */
+    /* width: 20rem; */
+    height: 30vh;
+    /* height: 2rem; */
+}
+.imgContainer{
+    /* object-fit: cover; */
+}
+
